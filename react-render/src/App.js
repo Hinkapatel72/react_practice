@@ -9,7 +9,9 @@ import './App.css';
 // import { ParentOne } from './components/Optimization/ParentOne';
 // import { ChildOne } from './components/Optimization/ChildOne';
 // import { GrandParent } from './components/Optimization/GrandParent';
-import { ParentTwo } from './components/Optimization/ParentTwo';
+// import { ParentTwo } from './components/Optimization/ParentTwo';
+// import { ParentThree } from './components/IncorrectOptimization/ParentThree';
+import { ParentFour } from './components/IncorrectOptimization/ParentFour';
 
 
 function App() {
@@ -26,7 +28,9 @@ function App() {
         <ChildOne />
       </ParentOne> */}
       {/* <GrandParent /> */}
-      <ParentTwo />
+      {/* <ParentTwo /> */}
+      {/* <ParentThree /> */}
+      <ParentFour />
     </div>
   );
 }
