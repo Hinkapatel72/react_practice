@@ -5,7 +5,11 @@ import './App.css';
 // import { ArrayUseState } from './components/ImmutableState/ArrayUseState';
 // import { ObjectUseReducer } from './components/ImmutableState/ObjectUseReducer';
 // import { ArrayUseReducer } from './components/ImmutableState/ArrayUseReducer';
-import { Parent } from './components/ParentChild/Parent';
+// import { Parent } from './components/ParentChild/Parent';
+// import { ParentOne } from './components/Optimization/ParentOne';
+// import { ChildOne } from './components/Optimization/ChildOne';
+// import { GrandParent } from './components/Optimization/GrandParent';
+import { ParentTwo } from './components/Optimization/ParentTwo';
 
 
 function App() {
@@ -17,7 +21,12 @@ function App() {
       {/* <ArrayUseState /> */}
       {/* <ObjectUseReducer /> */}
       {/* <ArrayUseReducer /> */}
-      <Parent />
+      {/* <Parent /> */}
+      {/* <ParentOne> 
+        <ChildOne />
+      </ParentOne> */}
+      {/* <GrandParent /> */}
+      <ParentTwo />
     </div>
   );
 }
