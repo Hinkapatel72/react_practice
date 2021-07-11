@@ -4,7 +4,8 @@ import './App.css';
 // import { ObjectUseState } from './components/ImmutableState/ObjectUseState';
 // import { ArrayUseState } from './components/ImmutableState/ArrayUseState';
 // import { ObjectUseReducer } from './components/ImmutableState/ObjectUseReducer';
-import { ArrayUseReducer } from './components/ImmutableState/ArrayUseReducer';
+// import { ArrayUseReducer } from './components/ImmutableState/ArrayUseReducer';
+import { Parent } from './components/ParentChild/Parent';
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       {/* <ObjectUseState /> */}
       {/* <ArrayUseState /> */}
       {/* <ObjectUseReducer /> */}
-      <ArrayUseReducer />
+      {/* <ArrayUseReducer /> */}
+      <Parent />
     </div>
   );
 }
